@@ -641,7 +641,6 @@ pub async fn rss(req: Request<Body>) -> Result<Response<Body>, String> {
 	Ok(res)
 }
 
-<<<<<<< HEAD
 // Set enclosure image for RSS feed item
 fn apply_enclosure(item: &mut Item, post: &Post) {
 	item.set_enclosure(get_rss_image(&post));
